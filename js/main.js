@@ -22,7 +22,7 @@ var app = {
 	, reviewList: new Array()
 	, currentReview: 0
 	, init: function () {
-		document.addEventListener('deviceready', onDeviceReady);
+		document.addEventListener('deviceready', app.onDeviceReady);
 	}
 	, onDeviceReady: function () {
 			// onDeviceReady function
